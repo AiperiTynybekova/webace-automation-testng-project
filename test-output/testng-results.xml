@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Login as a webace employee]]>
+    </line>
+    <line>
+      <![CDATA[Entering username in username field]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="7945" started-at="2019-11-21T18:32:25Z" finished-at="2019-11-21T18:32:33Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="7945" started-at="2019-11-21T18:32:25Z" finished-at="2019-11-21T18:32:33Z">
+      <class name="com.webace.tests.EmployeeLoginTest.EmployeeLoginTest">
+        <test-method status="PASS" signature="testSetup()[pri:0, instance:com.webace.tests.EmployeeLoginTest.EmployeeLoginTest@4f74980d]" name="testSetup" is-config="true" duration-ms="113" started-at="2019-11-21T18:32:25Z" finished-at="2019-11-21T18:32:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.webace.tests.EmployeeLoginTest.EmployeeLoginTest@4f74980d]" name="setup" is-config="true" duration-ms="484" started-at="2019-11-21T18:32:25Z" finished-at="2019-11-21T18:32:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginTest1()[pri:0, instance:com.webace.tests.EmployeeLoginTest.EmployeeLoginTest@4f74980d]" name="loginTest1" duration-ms="1297" started-at="2019-11-21T18:32:26Z" finished-at="2019-11-21T18:32:27Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Login as a webace employee]]>
+            </line>
+            <line>
+              <![CDATA[Entering username in username field]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginTest1 -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.webace.tests.EmployeeLoginTest.EmployeeLoginTest@4f74980d]" name="teardown" is-config="true" duration-ms="748" started-at="2019-11-21T18:32:27Z" finished-at="2019-11-21T18:32:28Z">
+          <params>
+            <param index="0">
+              <value>
+                  <![CDATA[[TestResult name=loginTest1 status=SUCCESS method=CreateOrderTest.loginTest1()[pri:0, instance:com.webace.tests.EmployeeLoginTest.EmployeeLoginTest@4f74980d] output=Login as a webace employee]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.webace.tests.EmployeeLoginTest.EmployeeLoginTest@4f74980d]" name="setup" is-config="true" duration-ms="3814" started-at="2019-11-21T18:32:28Z" finished-at="2019-11-21T18:32:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="negativeLoginTest1()[pri:0, instance:com.webace.tests.EmployeeLoginTest.EmployeeLoginTest@4f74980d]" name="negativeLoginTest1" duration-ms="461" started-at="2019-11-21T18:32:31Z" finished-at="2019-11-21T18:32:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeLoginTest1 -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.webace.tests.EmployeeLoginTest.EmployeeLoginTest@4f74980d]" name="teardown" is-config="true" duration-ms="759" started-at="2019-11-21T18:32:32Z" finished-at="2019-11-21T18:32:33Z">
+          <params>
+            <param index="0">
+              <value>
+                  <![CDATA[[TestResult name=negativeLoginTest1 status=SUCCESS method=CreateOrderTest.negativeLoginTest1()[pri:0, instance:com.webace.tests.EmployeeLoginTest.EmployeeLoginTest@4f74980d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="tearDownTest()[pri:0, instance:com.webace.tests.EmployeeLoginTest.EmployeeLoginTest@4f74980d]" name="tearDownTest" is-config="true" duration-ms="247" started-at="2019-11-21T18:32:33Z" finished-at="2019-11-21T18:32:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+      </class> <!-- com.webace.tests.EmployeeLoginTest.EmployeeLoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
