@@ -27,21 +27,30 @@ public class TestBase {
 
     @BeforeTest
     public void testSetup( ){
-        //we are creating actual reporter
         report = new ExtentReports();
-        //this is path to the report itself
+        //we are creating actual reporter
+        //this is our custom location of the report that will be generated
+        //report will be generated in the current project inside folder : target
+        //report file name : report.html
         String pathToReport = System.getProperty("user.dir")+"/target/report.html";
+        //this is path to the report itself
         htmlReporter = new ExtentHtmlReporter(pathToReport);
+        //initialize the htmlReporter with the path to the report
 
         report.attachReporter(htmlReporter);
+        //we attach the htmlreport to our report
         report.setSystemInfo("OS", "WINDOWS");
+        report.setSystemInfo("Environment", "hotfix");
+        report.setSystemInfo("Browser", ConfigurationReader.getProperty("browser"));
+        report.setSystemInfo("OS", System.getProperty("os.name"));
+        report.setSystemInfo("QA Engineer", "Aiperi Tynybekova");
         //we can add system information to report
-       // report.setSystemInfo("OS", System.getProperty("os.name"));
 
-
-        htmlReporter.config().setDocumentTitle("WebAce Test Automation");
+        htmlReporter.config().setDocumentTitle("WebAce Reports");
+        htmlReporter.config().setReportName("WebAce Automated Test Reports");
         htmlReporter.config().setTheme(Theme.DARK);
         htmlReporter.config().setTimeStampFormat("EEEE, MMMM dd, yyyy, hh:mm a '('zzz')'");
+        //we can add the above config info
 
     }
 

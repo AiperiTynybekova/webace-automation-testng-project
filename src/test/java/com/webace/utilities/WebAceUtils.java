@@ -5,5 +5,4 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 
 public class WebAceUtils extends TestBase {
-
 }
